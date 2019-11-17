@@ -48,7 +48,15 @@
   background-color: white;
   padding: 1.5em;
 }
-.btn {
+.container .main .helping-daily-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.container .main .helping-daily-box .helping-daily-text {
+  margin-bottom: 1.5em;
+}
+.container .main .helping-daily-box .btn {
   background-color: #248ea9;
   border: none;
   color: white;
@@ -58,10 +66,17 @@
   display: inline-block;
   font-size: 14px;
   border-radius: 8px;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  align-self: center;
 }
-.btn:hover {
+.container .main .helping-daily-box .btn:hover {
   background-color: #fafdcb;
   color: black;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.container .main .helping-daily-box .phone-call {
+  width: 45%;
+  height: auto;
+  align-self: center;
+  margin-bottom: 1.5em;
 }
