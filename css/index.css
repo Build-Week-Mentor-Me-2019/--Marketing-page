@@ -3,18 +3,35 @@
   padding: 0;
   margin: 0;
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v11/BngRUXNadjH0qYEzV7ab-oWlsbCGwRg.ttf) format('truetype');
+}
 .container {
+  font-family: "raleway";
   width: 98%;
   padding: 2em;
   background: -webkit-linear-gradient(90deg, #fafdcb, #aee7e8);
   background: linear-gradient(90deg, #fafdcb, #aee7e8);
 }
-header {
+.container header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4em;
+  margin-bottom: 6em;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
 }
 .btn {
   background-color: #248ea9;
