@@ -80,3 +80,10 @@
   align-self: center;
   margin-bottom: 1.5em;
 }
+.container .main .showcase {
+  display: flex;
+  flex-direction: column;
+}
+.container .main .showcase li {
+  list-style: none;
+}
