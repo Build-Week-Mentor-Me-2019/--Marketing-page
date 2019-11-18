@@ -1,3 +1,17 @@
+@button {
+    background-color: #248ea9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 20%;
+    align-self: center;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -90,10 +104,21 @@
         }
         .showcase {
             display: flex;
-            flex-direction: column;
 
-            li {
-                list-style: none;
+            .growth {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .network {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .application {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
         }
     }
