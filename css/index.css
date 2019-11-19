@@ -124,3 +124,7 @@
 .container .main .showcase .application h3 {
   margin-bottom: 1.5em;
 }
+.container .main p {
+  text-align: center;
+  margin-top: 1em;
+}
