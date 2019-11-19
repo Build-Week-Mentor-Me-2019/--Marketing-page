@@ -36,6 +36,11 @@ body {
 .container header h3 {
   font-size: 1.8em;
 }
+@media (max-width: 1100px) {
+  .container header h3 {
+    text-align: center;
+  }
+}
 .container .navbar {
   display: flex;
   justify-content: center;
@@ -44,6 +49,11 @@ body {
   height: 4em;
   width: 65%;
   margin: auto;
+}
+@media (max-width: 1100px) {
+  .container .navbar {
+    width: 96%;
+  }
 }
 .container .navbar li {
   list-style: none;
@@ -67,6 +77,11 @@ body {
   margin: auto;
   background-color: white;
   padding: 1.5em;
+}
+@media (max-width: 1100px) {
+  .container .main {
+    width: 96%;
+  }
 }
 .container .main h2 {
   font-size: 2.5em;
@@ -93,6 +108,11 @@ body {
   width: 20%;
   align-self: center;
 }
+@media (max-width: 1100px) {
+  .container .main .helping-daily-box .btn {
+    width: 35%;
+  }
+}
 .container .main .helping-daily-box .btn:hover {
   background-color: #fafdcb;
   color: black;
@@ -104,10 +124,20 @@ body {
   align-self: center;
   margin-bottom: 1.5em;
 }
+@media (max-width: 1100px) {
+  .container .main .helping-daily-box .phone-call {
+    width: 65%;
+  }
+}
 .container .main .showcase {
   display: flex;
   justify-content: center;
   padding: 2em;
+}
+@media (max-width: 1100px) {
+  .container .main .showcase {
+    flex-direction: column;
+  }
 }
 .container .main .showcase .growth {
   display: flex;
@@ -120,6 +150,11 @@ body {
   border: 2px solid black;
   padding: 1em;
   font-size: 1.5em;
+}
+@media (max-width: 1100px) {
+  .container .main .showcase .growth p {
+    width: 80%;
+  }
 }
 .container .main .showcase .growth h3 {
   margin-bottom: 1.5em;
@@ -137,6 +172,11 @@ body {
   padding: 1em;
   font-size: 1.5em;
 }
+@media (max-width: 1100px) {
+  .container .main .showcase .network p {
+    width: 80%;
+  }
+}
 .container .main .showcase .network h3 {
   margin-bottom: 1.5em;
   font-size: 2em;
@@ -152,6 +192,11 @@ body {
   border: 2px dashed black;
   padding: 1em;
   font-size: 1.5em;
+}
+@media (max-width: 1100px) {
+  .container .main .showcase .application p {
+    width: 80%;
+  }
 }
 .container .main .showcase .application h3 {
   margin-bottom: 1.5em;
