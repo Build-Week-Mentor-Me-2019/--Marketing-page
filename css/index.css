@@ -370,6 +370,16 @@ body {
   justify-content: center;
   margin-left: 20em;
 }
+@media (max-width: 1400px) {
+  .container .main .helping-daily-box .btn {
+    margin-left: 22rem;
+  }
+}
+@media (max-width: 1200px) {
+  .container .main .helping-daily-box .btn {
+    margin-left: 19rem;
+  }
+}
 @media (max-width: 800px) {
   .container .main .helping-daily-box .btn {
     margin-left: 13rem;
@@ -377,7 +387,7 @@ body {
 }
 @media (max-width: 500px) {
   .container .main .helping-daily-box .btn {
-    margin-left: 8rem;
+    margin-left: 6rem;
     width: 40%;
   }
 }
