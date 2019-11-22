@@ -1,18 +1,29 @@
 
 .title {
     .sect-base(white);
-    width: 75%;
-    margin: auto;
+    width: 96%;
     font-size: 2rem;
-    
-    @media @tablet {
-        width: 96%;
-        margin: auto;
-    }
-    @media @phone {
-        width: 96%;
-        margin: auto;
-    }
+    margin-left: 2vw;
+        
+        // @media @max {
+        //     margin-left: 25em;
+        // }
+
+        // @media @tablet {
+        //     margin-left: 13rem;
+        // }
+
+        // @media @phone {
+        //     margin-left: 8rem;
+        //     width: 40%;
+        // }
+
+        @media (max-width: 400px)  {
+            justify-content: flex-start;
+            margin-lef
+            width: 100%;
+        }
+
     
     // h2 {
     //     justify-content: center;
@@ -32,10 +43,14 @@
 
     @media @tablet {
         width: 96%;
+        display: flex;
+        flex-direction: column;
     }
     
-    @media @phone {
+    @media (max-width: 380px) {
         width: 96%;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -78,20 +93,21 @@
 
         .belief {
             padding-left: 1em;
-         }
+            font-size: 1rem;
+        }
+
 }
 
 .bot {
     .sect-base(lightgray);
     width: 96%;
     margin: auto;
-    padding: 7em;
+    padding: 4em;
+    font-size: 1rem;
 
-        @media @tablet {
-
-        }
-        
-        @media @phone {
-
+        @media (max-width: 375px) {
+            margin: auto;
+            padding: 4em;
+            font-size: 1rem;
         }
 }
